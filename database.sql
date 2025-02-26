@@ -1,0 +1,6 @@
+CREATE TABLE users (
+    user_id SERIAL PRIMARY KEY,
+    islocked BOOLEAN NOT NULL DEFAULT FALSE
+);
+
+INSERT INTO users (islocked) VALUES (TRUE), (FALSE), (TRUE);
