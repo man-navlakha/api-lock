@@ -2,3 +2,24 @@
 postgresql://lock_ng1z_user:jRc7tHJZXjK83XHcvb1ZZkYSCt5ml2fL@dpg-cuvj5ql6l47c738tfvj0-a.oregon-postgres.render.com/lock_ng1z
 
 postgresql://lock_ng1z_user:jRc7tHJZXjK83XHcvb1ZZkYSCt5ml2fL@dpg-cuvj5ql6l47c738tfvj0-a/lock_ng1z
+
+
+
+
+echo "# api-lock" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/man-navlakha/api-lock.git
+git push -u origin main
+
+
+
+
+
+
+
+git remote add origin https://github.com/man-navlakha/api-lock.git
+git branch -M main
+git push -u origin main

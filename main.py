@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Database connection (Replace with your Render DB URL)
-DATABASE_URL = os.getenv("DATABASE_URL", "your_render_db_url_here")
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://lock_ng1z_user:jRc7tHJZXjK83XHcvb1ZZkYSCt5ml2fL@dpg-cuvj5ql6l47c738tfvj0-a.oregon-postgres.render.com/lock_ng1z")
 
 def get_db_connection():
     conn = psycopg2.connect(DATABASE_URL, sslmode='require')
